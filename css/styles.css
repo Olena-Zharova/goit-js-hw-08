@@ -1,36 +1,26 @@
   
 
   .gallery-container{
-
- max-width: 1440px;
- align-items: center;
-  background: #fff;
-  
+   max-width: 1440px;
+   align-items: center;
+   background: #fff;
   
   }
 
 .gallery{
-    
+
     box-sizing: border-box;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     row-gap: 24px;
     column-gap: 24px;
-
+    list-style-type: none;
+    
 }
-
-.gallery-link {
-
-    margin-right: auto;
-    margin-left: auto;
-}
-
- ul,
- li {
-     list-style-type: none;
- }
+ 
 
  .gallery-image{
     width: calc((100% - 2 * 24px) / 3);
